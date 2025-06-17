@@ -1,0 +1,36 @@
+{
+  "name": "labor5-graphql",
+  "version": "1.0.0",
+  "description": "Lab5-GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladSamoylov/Labor5_GraphQL.git"
+  },
+  "keywords": [
+    "learn",
+    "GraphQL"
+  ],
+  "author": "Vlad Samoilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladSamoylov/Labor5_GraphQL/issues"
+  },
+  "homepage": "https://github.com/VladSamoylov/Labor5_GraphQL#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/register": "^7.27.1"
+  }
+}
